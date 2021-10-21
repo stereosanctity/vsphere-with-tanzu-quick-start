@@ -1,8 +1,8 @@
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: rolebinding-cluster-user-joe
-  namespace: namespace-emd
+  name: rolebinding-cluster-user-danyiem
+  namespace: tkc-1
 roleRef:
   kind: ClusterRole
   name: edit                             #Default ClusterRole
