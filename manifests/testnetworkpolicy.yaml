@@ -1,0 +1,9 @@
+apiVersion: vmoperator.vmware.com/v1alpha1
+kind: NetworkPolicy
+metadata:
+  name: network-emd
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          access: "true"

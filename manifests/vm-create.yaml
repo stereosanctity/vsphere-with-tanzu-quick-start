@@ -1,0 +1,13 @@
+apiVersion: vmoperator.vmware.com/v1alpha1
+kind: VirtualMachine
+metadata:
+  name: vmsvc-rocky-vm
+  namespace: namespace-emd
+spec:
+  imageName: rocky8gm-tanzu
+  className: rocky-emd
+  powerState: poweredOn
+  storageClass: kubernetes-demo-storage-policy
+  networkInterfaces:
+  - networkName: "network-emd"
+    networkType: vsphere-distributed
