@@ -8,6 +8,3 @@ spec:
   className: rocky-emd
   powerState: poweredOn
   storageClass: kubernetes-demo-storage-policy
-  networkInterfaces:
-  - networkName: "network-emd"
-    networkType: vsphere-distributed
