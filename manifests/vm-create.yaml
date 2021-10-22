@@ -4,7 +4,7 @@ metadata:
   name: vmsvc-rocky-vm
   namespace: namespace-emd
 spec:
-  imageName: rocky8gm-tanzu
+  imageName: ubuntu-20-1633387172196
   className: rocky-emd
   powerState: poweredOn
   storageClass: kubernetes-demo-storage-policy
