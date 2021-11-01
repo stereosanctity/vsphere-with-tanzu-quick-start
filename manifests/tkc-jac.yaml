@@ -8,7 +8,7 @@ spec:
   topology:
     controlPlane:
       class: guaranteed-small
-      count: 2
+      count: 1
       storageClass: kubernetes-demo-storage-policy
     workers:
       class: guaranteed-small
