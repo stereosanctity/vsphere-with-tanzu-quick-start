@@ -1,0 +1,11 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: test-pvc2
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: kubernetes-demo-storage-policy
+  resources:
+    requests:
+      storage: 2Gi
