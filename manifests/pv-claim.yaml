@@ -1,0 +1,11 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: pvc-test1
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: direct-csi-min-io
+  resources:
+    requests:
+      storage: 2Gi
