@@ -5,7 +5,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  storageClassName: direct-csi-min-io
+  storageClassName: kubernetes-demo-storage-policy
   resources:
     requests:
       storage: 2Gi
